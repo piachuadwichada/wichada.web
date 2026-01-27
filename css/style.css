@@ -1,56 +1,61 @@
 body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: linear-gradient(135deg, #1e3a8a, #38bdf8);
-    margin: 0;
-    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #e6f7ff);
 }
 
 .container {
-    background-color:  #fff7ed;
     width: 400px;
-    margin: 80px auto;
-    padding: 30px;
-    border-radius: 15px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
     text-align: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 .profile {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    border: 5px solid #ffb6c1;
+    object-fit: cover;
 }
 
 h1 {
-    color: #1e3a8a;
-    margin-bottom: 5px;
+    color: #ff69b4;
 }
 
 h2 {
-    color: #64748b;
-    font-size: 18px;
-    margin-bottom: 15px;
+    color: #ff8fab;
 }
 
 p {
-    color:  #c2410c;
-    font-size: 15px;
+    color: #555;
     line-height: 1.6;
+}
+
+#members ul {
+    list-style: none;
+    padding: 0;
+}
+
+#members li {
+    background: #fff0f5;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 25px;
-    background-color: #1e3a8a;
-    color: #ffffff;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff69b4;
+    color: white;
     text-decoration: none;
     border-radius: 25px;
-    transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #0f172a;
+    background: #ff85c1;
 }
-
